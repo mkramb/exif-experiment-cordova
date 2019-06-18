@@ -10,3 +10,5 @@ yarn start-web
 yarn build
 yarn start-mobile
 ```
+
+![Mobile demo](assets/mobile.gif 'Mobile demo')
