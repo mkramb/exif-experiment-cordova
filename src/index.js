@@ -3,4 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import './index.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const startApp = () => {
+    ReactDOM.render(<App />, document.getElementById('root'));
+};
+  
+if (window.cordova) {
+    document.addEventListener('deviceready', startApp, false);
+} else {
+    startApp();
+}

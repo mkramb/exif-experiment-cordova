@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css","index.css"],"names":[],"mappings":"AAAA,KACE,YACF,CCFA,KACI,QAAS,CACT,SACJ","file":"main.5809a838.chunk.css","sourcesContent":[".App {\n  padding: 20px;\n}","body {\n    margin: 0;\n    padding: 0;\n}"]}
